@@ -151,7 +151,7 @@ function dijkstra(graph, source, numNodes) {
             <th style="padding: 8px; border: 1px solid #334155;">Step</th>
             <th style="padding: 8px; border: 1px solid #334155;">Extracted Node</th>
             <th style="padding: 8px; border: 1px solid #334155;">Edge Relaxations</th>
-            <th style="padding: 8px; border: 1px solid #334155;">Distance Array `dist[]`</th>
+            <th style="padding: 8px; border: 1px solid #334155;">Distance Array dist[]</th>
           </tr>
         </thead>
         <tbody>

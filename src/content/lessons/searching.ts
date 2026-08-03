@@ -147,7 +147,7 @@ function searchRotated(nums, target) {
 }
       </pre>
 
-      <h3 style="color: #F59E0B;">Step-by-Step State Trace for `[4, 5, 6, 7, 0, 1, 2]`, Target = `0`:</h3>
+      <h3 style="color: #F59E0B;">Step-by-Step State Trace for [4, 5, 6, 7, 0, 1, 2], Target = 0:</h3>
       <table style="width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px;">
         <thead>
           <tr style="background: #1E293B; color: #38BDF8;">

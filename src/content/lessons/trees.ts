@@ -127,7 +127,7 @@ export const treesLesson: LessonContent = {
       </div>
 
       <h2 style="color: #06B6D4; margin-top: 24px;">2. BST Inorder Traversal & Validation Walkthrough</h2>
-      <p>Inorder traversal produces sorted key outputs `[20, 30, 40, 50, 60, 70, 80]`:</p>
+      <p>Inorder traversal produces sorted key outputs <code>[20, 30, 40, 50, 60, 70, 80]</code>:</p>
 
       <pre style="background: #050816; border: 1px solid #1E293B; border-radius: 8px; padding: 14px; color: #34D399; font-family: monospace; font-size: 13px;">
 function isValidBST(root, min = null, max = null) {

@@ -182,12 +182,12 @@ function partition(arr, low, high) {
 }
       </pre>
 
-      <h3 style="color: #F59E0B;">Step-by-Step Execution Trace for `[10, 80, 30, 90, 40, 50, 70]` (Pivot = 70):</h3>
+      <h3 style="color: #F59E0B;">Step-by-Step Execution Trace for [10, 80, 30, 90, 40, 50, 70] (Pivot = 70):</h3>
       <table style="width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px;">
         <thead>
           <tr style="background: #1E293B; color: #38BDF8;">
             <th style="padding: 8px; border: 1px solid #334155;">Step</th>
-            <th style="padding: 8px; border: 1px solid #334155;">`j` Item vs Pivot 70</th>
+            <th style="padding: 8px; border: 1px solid #334155;">j Item vs Pivot 70</th>
             <th style="padding: 8px; border: 1px solid #334155;">Action Taken</th>
             <th style="padding: 8px; border: 1px solid #334155;">Array Partition State</th>
           </tr>

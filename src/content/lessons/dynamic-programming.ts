@@ -121,7 +121,7 @@ export const dynamicProgrammingLesson: LessonContent = {
       </div>
 
       <h2 style="color: #06B6D4; margin-top: 24px;">2. 0/1 Knapsack Tabulation Step-by-Step Code Walkthrough</h2>
-      <p>Given items with weights `w` and values `v`, maximize total value within capacity `W`:</p>
+      <p>Given items with weights w and values v, maximize total value within capacity W:</p>
 
       <pre style="background: #050816; border: 1px solid #1E293B; border-radius: 8px; padding: 14px; color: #34D399; font-family: monospace; font-size: 13px;">
 function knapsack(weights, values, W) {

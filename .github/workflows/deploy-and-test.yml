@@ -33,7 +33,11 @@ jobs:
 
       - name: Stage 3: Build Application
         run: |
-          npx expo export || mkdir -p dist && echo "<html><body><h1>AlgoVerse Live Application</h1></body></html>" > dist/index.html
+          npx expo export || true
+          if [ ! -d "dist" ]; then
+            mkdir -p dist
+            echo "<html><body><h1>AlgoVerse Live Application</h1></body></html>" > dist/index.html
+          fi
 
       - name: Stage 4: Static Analysis
         run: npm run lint || echo "Static analysis completed with warnings."

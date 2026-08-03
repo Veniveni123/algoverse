@@ -18,7 +18,7 @@ jobs:
       - name: Step 1: Detect Framework & Tech Stack
         run: |
           echo "Detecting application tech stack..."
-          if [ -f "package.json" ]; path; then
+          if [ -f "package.json" ]; then
             echo "Node.js / React Native / Expo environment detected."
           fi
 

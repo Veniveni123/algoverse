@@ -123,27 +123,25 @@ export const stackLesson: LessonContent = {
       </div>
 
       <h2 style="color: #06B6D4; margin-top: 24px;">2. Valid Parentheses Matching Code Walkthrough</h2>
-      <p>Validate if string bracket pairs `()[]{}` are correctly closed using a Stack:</p>
-
+      <p>Validate if string bracket pairs ()[]{} are correctly closed using a Stack:</p>
+ 
       <pre style="background: #050816; border: 1px solid #1E293B; border-radius: 8px; padding: 14px; color: #34D399; font-family: monospace; font-size: 13px;">
 function isValidParentheses(s) {
-  let stack = [];
-  let map = { ')': '(', ']': '[', '}': '{' };
+  const stack = [];
+  const map = { ')': '(', ']': '[', '}': '{' };
   
   for (let char of s) {
     if (char === '(' || char === '[' || char === '{') {
-      stack.push(char); // Push open bracket onto stack
-    } else {
-      // If closing bracket, pop top item and check match
-      let top = stack.pop();
-      if (top !== map[char]) return false;
+      stack.push(char);
+    } else if (stack.length === 0 || stack.pop() !== map[char]) {
+      return false;
     }
   }
-  return stack.length === 0; // Valid only if stack is empty
+  return stack.length === 0;
 }
       </pre>
 
-      <h3 style="color: #F59E0B;">Step-by-Step State Trace for Input `"{ [ ( ) ] }"`:</h3>
+      <h3 style="color: #F59E0B;">Step-by-Step State Trace for Input "{ [ ( ) ] }":</h3>
       <table style="width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px;">
         <thead>
           <tr style="background: #1E293B; color: #38BDF8;">
