@@ -1,0 +1,11 @@
+config:
+  target: "{{ $processEnvironment.BASE_URL || 'https://Veniveni123.github.io/AlgoVerse/' }}"
+  phases:
+    - duration: 60
+      arrivalRate: 10
+      rampTo: 100
+      name: Baseline Load Test (100 VUs)
+scenarios:
+  - flow:
+      - get:
+          url: "/"
