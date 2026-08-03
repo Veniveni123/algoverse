@@ -145,7 +145,7 @@ function reverseLinkedList(head) {
 }
       </pre>
 
-      <h3 style="color: #F59E0B;">Step-by-Step State Trace for `10 -> 20 -> 30 -> NULL`:</h3>
+      <h3 style="color: #F59E0B;">Step-by-Step State Trace for 10 -&gt; 20 -&gt; 30 -&gt; NULL:</h3>
       <table style="width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px;">
         <thead>
           <tr style="background: #1E293B; color: #38BDF8;">

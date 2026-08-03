@@ -159,8 +159,8 @@ def linear_regression_gd(X, y, lr=0.01, epochs=1000):
         <thead>
           <tr style="background: #1E293B; color: #38BDF8;">
             <th style="padding: 8px; border: 1px solid #334155;">Epoch</th>
-            <th style="padding: 8px; border: 1px solid #334155;">Weight `w`</th>
-            <th style="padding: 8px; border: 1px solid #334155;">Bias `b`</th>
+            <th style="padding: 8px; border: 1px solid #334155;">Weight w</th>
+            <th style="padding: 8px; border: 1px solid #334155;">Bias b</th>
             <th style="padding: 8px; border: 1px solid #334155;">MSE Loss</th>
           </tr>
         </thead>
